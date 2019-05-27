@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="droptris_connection">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HW02/lib/droptris_connection.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

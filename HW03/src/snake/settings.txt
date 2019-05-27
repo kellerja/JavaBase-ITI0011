@@ -1,0 +1,9 @@
+currentTickValue:30
+currentSnakeColor:0x000000ff
+currentSnakeWidth:5
+currentSnakeLengthModifier:30
+currentSnakeMovementRadius:1
+currentSnakeTurnRadius:10.0
+currentSnakeSpeed:5.0
+currentSnakeFittenSpeed:0.5
+currentSnakeFattenSpeed:3.0

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake.HighScoreController">
+   <children>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab closable="false" text="Overall Scores">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab closable="false" text="Any Settings">
+                           <content>
+                              <VBox fx:id="vBoxOverallShowcase" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label text="Score Identifier: Score" />
+                                 </children></VBox>
+                           </content>
+                      </Tab>
+                      <Tab closable="false" text="Add Filters">
+                           <content>
+                              <VBox fx:id="vBoxOverallFilter" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" />
+                           </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+          </Tab>
+          <Tab closable="false" text="Level 1">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab closable="false" text="Any Settings">
+                           <content>
+                              <VBox fx:id="vBoxLevel1Showcase" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label text="Score Identifier: Score" />
+                                 </children></VBox>
+                           </content>
+                      </Tab>
+                      <Tab closable="false" text="Add Filters">
+                           <content>
+                              <VBox fx:id="vBoxLevel1Filter" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" />
+                           </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+          </Tab>
+            <Tab text="Level 2">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Any Settings">
+                           <content>
+                              <VBox fx:id="vBoxLevel2Showcase" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label alignment="TOP_CENTER" text="Score Identifier: Score" />
+                                 </children>
+                              </VBox>
+                           </content>
+                        </Tab>
+                      <Tab text="Add Filters">
+                           <content>
+                              <VBox fx:id="vBoxLevel2Filter" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" />
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button mnemonicParsing="false" onAction="#returnToMenu" text="Back" StackPane.alignment="BOTTOM_RIGHT" />
+   </children>
+</StackPane>

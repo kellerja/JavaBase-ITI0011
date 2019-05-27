@@ -1,0 +1,105 @@
+.root{
+}
+.button{
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: red;
+    -fx-padding: 10 40 10 40;
+    -fx-background-color: #FFC0C0;
+}
+.button: hover{
+    -fx-background-color: #C06060;
+}
+.button: pressed{
+    -fx-background-color: #FFC0C0;
+}
+.label{
+    -fx-border-style: solid;
+    -fx-border-width: 2;
+    -fx-border-color: green;
+    -fx-border-radius: 1 20 1 20;
+    -fx-padding: 10 40 10 40;
+    -fx-background-color: #C0FFC0;
+    -fx-background-radius: 1 20 1 20;
+}
+#VBoxBackground{
+    -fx-background-color: #FFFFFF00;
+}
+#HBoxBackground{
+    -fx-background-color: #FFFFFF00;
+}
+#StackPaneBackground{
+    -fx-border-style: solid;
+    -fx-border-width: 25;
+    -fx-border-radius: 1 20 1 20;
+    -fx-background-radius: 40 40 40 40;
+    -fx-background-color: #FFC0C0;
+    -fx-border-color: red;
+}
+#Cookie{
+    -fx-opacity: 1;
+}
+#Cookie: pressed{
+    -fx-opacity: 0.9;
+}
+#backgroundCircle{
+}
+#GridPaneInfoBackground{
+    -fx-border-style: solid;
+    -fx-border-width: 25;
+    -fx-border-radius: 1 20 1 20;
+    -fx-border-color: blue;
+    -fx-background-radius: 40 40 40 40;
+    -fx-background-color: #C0C0FF;
+}
+#CookieCount{
+    -fx-padding: 10 0 10 0;
+}
+#ClickerCount{
+}
+#CursorCount{
+}
+#GridPaneActiveBackground{
+    -fx-border-style: solid;
+    -fx-border-width: 25;
+    -fx-border-radius: 1 20 1 20;
+    -fx-background-radius: 40 40 40 40;
+    -fx-border-color: green;
+    -fx-background-color: #C0FFC0;
+}
+#CursorButton{
+}
+#ClickerButton{
+}
+#InfoButton{
+}
+#closeButton{
+    -fx-background-color: #6A616B;
+    -fx-border-color: #656C6C;
+    -fx-text-fill: #F0F0F0;
+}
+#closeButton: hover{
+    -fx-background-color: #4A414B;
+    -fx-text-fill: #B5B5B5;
+}
+#closeButton: pressed{
+    -fx-background-color: #6A616B;
+    -fx-text-fill: #F0F0F0;
+}
+#infoBoxBackground{
+    -fx-background-color: #155243;
+}
+#infoLabel{
+    -fx-background-color: #342551;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-radius: 0 0 0 0;
+    -fx-text-fill: #CBDAAE;
+    -fx-border-color: #EAADBC;
+}
+#versionLabel{
+    -fx-background-color: #342551;
+    -fx-background-radius: 0 0 0 0;
+    -fx-border-radius: 0 0 0 0;
+    -fx-text-fill: #CBDAAE;
+    -fx-border-color: #EAADBC;
+}

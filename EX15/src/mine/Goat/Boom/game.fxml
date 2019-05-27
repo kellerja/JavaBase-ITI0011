@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mine.Goat.Boom.Controller">
+   <children>
+      <ImageView fx:id="goat" fitHeight="150.0" fitWidth="200.0" focusTraversable="true" layoutX="244.0" layoutY="236.0" onKeyPressed="#pressKey" onKeyReleased="#releasedKey" onMouseClicked="#regainFocus" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@goat.png" />
+         </image>
+      </ImageView>
+      <SplitMenuButton fx:id="gameState" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#start" text="Start">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#toggleExsplodingMines" text="Toggle mines exploding" />
+         </items>
+      </SplitMenuButton>
+      <Label fx:id="scoreLabel" layoutX="90.0" layoutY="18.0" text="Score:" />
+      <Label fx:id="goatLivesLabel" layoutX="150.0" layoutY="18.0" text="Lives:" />
+      <Label fx:id="timePlayedLabel" layoutX="14.0" layoutY="50.0" text="Played: " />
+   </children>
+</Pane>

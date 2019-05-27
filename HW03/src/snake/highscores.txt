@@ -1,0 +1,10 @@
+Level_1, 1 snakes, started 1461608117, ended 1461608137, lasting 20 seconds :6
+Level_2, 2 snakes, started 1461608039, ended 1461608059, lasting 20 seconds :3
+Level_1, 1 snakes, started 1461612945, ended 1461612960, lasting 15 seconds :3
+Level_2, 2 snakes, qwerty, started 1461607811, ended 1461607819, lasting 7 seconds :2
+Level_1, 1 snakes, qwerty, started 1461607764, ended 1461607765, lasting 1 seconds :0
+Level_2, 1 snakes, started 1461607981, ended 1461607983, lasting 2 seconds :0
+Level_2, 2 snakes, started 1461607990, ended 1461607992, lasting 2 seconds :0
+Level_2, 2 snakes, started 1461608015, ended 1461608019, lasting 4 seconds :0
+Level_1, 1 snakes, started 1461608095, ended 1461608096, lasting 0 seconds :0
+Level_2, 2 snakes, started 1461613762, ended 1461613765, lasting 3 seconds :-2
